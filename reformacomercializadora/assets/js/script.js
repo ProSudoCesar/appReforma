@@ -1,5 +1,4 @@
 
-
 /* ********** ContactForm ********** */
 ((d) => {
   const $form = d.querySelector(".contact-form"),
@@ -9,7 +8,7 @@
   $form.addEventListener("submit", (e) => {
     e.preventDefault();
     $loader.classList.remove("none");
-    fetch("https://formsubmit.co/ajax/prosudocesar@gmail.com", {
+    fetch("https://formsubmit.co/ajax/reformacomercializadora@gmail.com", {
       method: "POST",
       body: new FormData(e.target),
     })
